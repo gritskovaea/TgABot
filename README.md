@@ -10,10 +10,13 @@ git clone <repo_url>
 cd TgABot
 ```
 
-2) Заполните `.env`:
+2) Заполните `.env` (значения по умолчанию для локального Docker):
 ```
 BOT_TOKEN=...
 GEMINI_API_KEY=...
+DATABASE_URL=postgres://postgres:postgres@postgres:5432/tg_analytics
+REDIS_URL=redis://redis:6379
+CACHE_TTL_MINUTES=20
 ```
 
 3) Запустите:
