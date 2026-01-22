@@ -1,0 +1,12 @@
+.idea/
+*.iml
+.env
+node_modules/
+bot/node_modules/
+web/tgabot/node_modules/
+dist/
+bot/dist/
+web/tgabot/.next/
+web/tgabot/out/
+*.log
+.DS_Store
